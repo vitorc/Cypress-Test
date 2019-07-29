@@ -1,0 +1,4 @@
+{
+    "baseURLPeople": "https://swapi.co/api/people/",
+    "baseURLPlanet": "https://swapi.co/api/planet/"
+}
