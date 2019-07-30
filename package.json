@@ -4,10 +4,10 @@
   "description": "Vitor Cardoso Cypress Test",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "node_modules/.bin/cypress run",
-    "cypress:open": "./node_modules/.bin/cypress open"
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
   },
-  "cypress-cucumber-preprocessor": {  
+  "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
   },
   "author": "Vitor Cardoso",
@@ -19,5 +19,13 @@
   },
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^1.13.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorc/Cypress-Test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vitorc/Cypress-Test/issues"
+  },
+  "homepage": "https://github.com/vitorc/Cypress-Test#readme"
 }
