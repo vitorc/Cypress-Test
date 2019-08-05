@@ -18,6 +18,7 @@ var planet_informations = {
     it('Get Star Wars Planet Response 200', () => {
        cy.request(baseURLPlanet)
        .then((response) => {
+            var statusResponse = response.status    
             expect(planet.name).to.be.equal("Tatooine")
             expect(planet.rotation_period).to.be.equal(23)
             expect(planet.orbital_period).to.be.equal(304)
@@ -27,7 +28,7 @@ var planet_informations = {
             expect(planet.terrain).to.be.equal("desert")
             expect(planet.surface_water).to.be.equal(1)
             expect(planet.population).to.be.equal(200000)
-            expect(200).to.be.equal(200)
+            expect(statusResponse).to.be.equal(200)
         })
      })
  })
