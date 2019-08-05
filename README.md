@@ -1,5 +1,4 @@
 <h1><u><b>Setup repository</h1></u></b>
-<br>
 <h2><u><b>How to install Cypress:</h2><u/></b>
 <li>
 npm install cypress --save-dev
